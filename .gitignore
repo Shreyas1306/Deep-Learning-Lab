@@ -89,5 +89,8 @@ desktop.ini
 .env.*
 !.env.example
 
-# Large local dataset
-Assignment/tomato/
+# Large local datasets
+**/tomato/
+
+# Microsoft Office temporary files
+~$*
