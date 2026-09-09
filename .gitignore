@@ -1,0 +1,93 @@
+# ==============================
+# Python
+# ==============================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+
+# ==============================
+# Jupyter Notebook
+# ==============================
+
+.ipynb_checkpoints/
+
+
+# ==============================
+# VS Code
+# ==============================
+
+.vscode/
+
+
+# ==============================
+# Python testing / coverage
+# ==============================
+
+.pytest_cache/
+.coverage
+htmlcov/
+
+
+# ==============================
+# Machine Learning / Deep Learning
+# ==============================
+
+# Trained model files
+*.h5
+*.hdf5
+*.keras
+*.pth
+*.pt
+*.ckpt
+*.onnx
+
+# TensorFlow logs / checkpoints
+checkpoint/
+checkpoints/
+logs/
+
+
+# ==============================
+# Generated files
+# ==============================
+
+*.log
+*.tmp
+*.temp
+
+
+# ==============================
+# OS generated files
+# ==============================
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# macOS
+.DS_Store
+
+
+# ==============================
+# Local environment / secrets
+# ==============================
+
+.env
+.env.*
+!.env.example
+
+# Large local dataset
+Assignment/tomato/
